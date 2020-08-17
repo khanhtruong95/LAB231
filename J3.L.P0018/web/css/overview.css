@@ -1,0 +1,26 @@
+.page-content {
+    padding: 11px 0 22px 0;
+}
+table {
+    border-spacing: 0;
+    width: 100%;
+}
+th, td {
+    padding: 8px;
+    line-height: 22px;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+th {
+    font-weight: normal;
+    text-align: left;
+}
+th:last-child, td:last-child {
+    text-align: right;
+}
+td:first-child {
+    width: 25%;
+}
+td a {
+    color: black;
+}
