@@ -1,0 +1,9 @@
+.section {
+    border-bottom: none;
+}
+.icon-wrapper, .control {
+    padding-top: 9.6px;
+}
+.content {
+    border-bottom: 3px dotted rgba(0,0,0,.2);
+}
