@@ -1,0 +1,85 @@
+/* For ids */
+#top-box {
+    display: block;
+    width: 100%;
+}
+#menu {
+    background-image: url("../images/menu_bg.gif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: table;
+    font-size: 1.1em;
+    height: 3em;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: center;
+    width: 96%;
+}
+#menu > .table-row {
+    display: table-row;
+}
+#menu > .table-row > .table-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+#menu > .table-row > .table-cell > a {
+    font-weight: bold;
+}
+#main {
+    background-image: url("../images/white_bg.png");
+    background-size: 100% 100%;
+    font-size: 1.2em;
+    padding-bottom: 1%;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+#main > p {
+    margin: 0px;
+    padding-bottom: 2em;
+    padding-top: 2em;
+}
+#form-title {
+    color: darkblue;
+    font-weight: bold;
+}
+#question-area {
+    height: 8em;
+    width: 100%;
+}
+#option-area {
+    height: 3.5em;
+    width: 100%;
+}
+/* For classes */
+.background-white {
+    background-image: url("../images/white_bg.png");
+    background-size: 100% 100%;
+}
+.button-center {
+    display: block;
+    margin: auto;
+}
+.color-blue {
+    color: blue;
+}
+.label-center {
+    display: block;
+    text-align: center;
+}
+/* For elements */
+a {
+    color: darkslategray;
+    text-decoration: none;
+}
+body {
+    background-attachment: fixed;
+    background-image: url("../images/bg.jpg");
+    background-size: 100% 100%;
+    color: darkslategray;
+    font-family: sans-serif;
+    font-size: small;
+    margin: 1.5em 1.5em;
+}
+td {
+    vertical-align: top;
+}
