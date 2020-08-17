@@ -1,0 +1,11 @@
+#site-wrapper {
+    margin-bottom: 50px;
+}
+.section {
+    border-bottom: none;
+}
+.camera-icon,
+.pencil-icon,
+.control {
+    margin-top: 9.6px;
+}

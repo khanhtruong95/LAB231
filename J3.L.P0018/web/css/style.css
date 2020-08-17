@@ -1,0 +1,245 @@
+body {
+    background-attachment: fixed;
+    background-image: url("../images/Manhattan.jpg");
+    background-position: center top;
+    background-size: cover;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    min-width: 980px;
+}
+#site-wrapper {
+    background-color: white;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 0 0 24px rgba(0,0,0,.8);
+    margin-bottom: 185px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 980px;
+}
+#title-wrapper {
+    padding: 30px 20px;
+}
+#title {
+    font-family: 'Great Vibes', sans-serif;
+    font-size: 56px;
+    line-height: 52px;
+    padding: 6px 0;
+}
+#title a {
+    color: black;
+    text-decoration: none;
+}
+#title a:hover {
+    text-decoration: underline;
+}
+#subtitle {
+    color: #cd0d18;
+    font-size: 22px;
+    line-height: 22px;
+    padding: 2px 0;
+}
+#menu-wrapper {
+    background-color: #cd0d18;
+    width: 100%;
+}
+#menu {
+    display: table-row;
+    height: 35px;
+}
+#menu a {
+    color: white;
+    display: table-cell;
+    padding: 0 15px;
+    text-decoration: none;
+    vertical-align: middle;
+}
+#menu a:hover {
+    text-decoration: underline;
+}
+#right {
+    float: right;
+    padding: 30.4px 20px 22px 0;
+}
+#right > .box {
+    margin: 32px 0;
+}
+#right > .box:first-child {
+    margin-top: 0;
+}
+#right > .box:last-child {
+    margin-bottom: 0;
+}
+.box {
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,.29);
+    width: 220px;
+}
+.box-heading {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    line-height: 22px;
+    padding: 11px 15px;
+}
+.box-content {
+    padding: 5.5px 15px 11px 15px;
+}
+.box-content ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.box-content a {
+    color: black;
+    text-decoration: none;
+}
+.share-text {
+    line-height: 22px;
+    margin-left: 5px;
+    text-decoration: underline;
+}
+.facebook-logo,
+.twitter-logo {
+    background-size: cover;
+    display: inline-block;
+    height: 13.72px;
+    width: 13.72px;
+}
+.facebook-logo {
+    background-image: url("../images/facebook-logo.png");
+}
+.twitter-logo {
+    background-image: url("../images/twitter-sign.png");
+}
+.button-wrapper {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
+.button-wrapper a {
+    text-decoration: none;
+}
+.button {
+    background-color: #6c5160;
+    border-radius: 20px;
+    color: white;
+    display: table-cell;
+    height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    width: 190px;
+}
+#left {
+    max-width: 700px;
+    padding: 30.4px 0 22px 20px;
+}
+.page-title {
+    font-family: 'Great Vibes', sans-serif;
+    font-size: 36px;
+    line-height: 33.8px;
+    padding: 9.6px 0;
+}
+.section {
+    margin-top: 16px;
+}
+.section:first-child {
+    margin-top: 0;
+}
+.camera-icon,
+.pencil-icon {
+    background-size: cover;
+    display: inline-block;
+    float: left;
+    height: 41px;
+    width: 41px;
+}
+.camera-icon {
+    background-image: url("../images/camera-retro.png");
+}
+.pencil-icon {
+    background-image: url("../images/pencil.png");
+}
+.section-content {
+    margin-left: 65px;
+}
+.control {
+    float: right;
+    font-style: italic;
+}
+.heading {
+    margin-bottom: 11px;
+}
+.heading a {
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    line-height: 22px;
+}
+.content {
+    overflow: hidden;    
+}
+.content p {
+    margin: 0 0 11px 0;
+}
+.content p:last-child {
+    margin: 0;
+}
+.post-image-wrapper {
+    border-radius: 10px;
+    float: left;
+    height: auto;
+    line-height: 0;
+    margin: 3px 20px 8px 0;
+    overflow: hidden;
+    width: 48.93617021%;
+}
+.post-image-wrapper img {
+    max-width: 100%;
+}
+.photo-image-wrapper {
+    border-radius: 10px;
+    line-height: 0;
+    overflow: hidden;
+    width: 100%;
+}
+.photo-image-wrapper img {
+    max-width: 100%;
+}
+.image-caption {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: italic;
+    font-size: 14.4px;
+    line-height: 17.82px;
+    padding: 6px 1px;
+}
+#pager {
+    padding: 27px 0;
+    text-align: center;
+}
+#pager a {
+    color: black;
+}
+#footer {
+    border-top: 1px solid rgba(0,0,0,.2);
+    clear: both;
+    height: 36px;
+    margin: 0 20px;
+    padding: 32px 0 23px 0;
+}
+.page-counter {
+    float:right;
+}
+.page-counter-item {
+    border-radius: 4px;
+    box-shadow: 0 1px 2px #595959;
+    float: left;
+    font-family: sans-serif;
+    font-size: 14.4px;
+    font-weight: bold;
+    line-height: 14.4px;
+    margin: 3px 2px 0 0;
+    padding: 2px 2px 1px 2px;
+    text-align: center;
+    width: 10px;
+}
